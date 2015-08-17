@@ -1,0 +1,33 @@
+.snapshot {
+  height: 100px;
+  width: 150px;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-right: 20px;
+}
+
+.info {
+  display: block;
+  min-height: 150px;
+  background-color: rgba(0,0,0,.1);
+  padding: 20px;
+  margin: 15px;
+}
+
+nav>a {
+  width: 100px;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: teal;
+}
+
+.active {
+  font-size: x-large;
+  color: red;
+  background-color: rgba(0,0,0,.1);
+}

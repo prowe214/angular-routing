@@ -1,0 +1,10 @@
+<h3>Resume</h3>
+
+<div class="info" ng-repeat="job in jobs">
+  <div class="snapshot" style="background-image: url({{job.imageurl}})"></div>
+  <a href="{{job.url}}"><h4>{{job.company}}</h4></a>
+  <h5>{{job.position}}</h5>
+  <p>
+    {{job.description}}
+  </p>
+</div>
